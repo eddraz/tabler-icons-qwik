@@ -3,7 +3,7 @@ interface Props {
   color?: string;
 }
 
-export const TwelveHoursIcon = ({ size = "44", color = "#000" }: Props) => {
+export const TwelveHoursIcon = ({ size = "44", color = "#2c3e50" }: Props) => {
   return (
     <svg
       xmlns="http://www.w3.org/2000/svg"

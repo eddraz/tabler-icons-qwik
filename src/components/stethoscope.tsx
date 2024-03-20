@@ -2,7 +2,7 @@ interface Props {
   color?: string;
   size?: string | number;
 }
-export const StethoscopeIcon = ({ color, size }: Props) => {
+export const StethoscopeIcon = ({ size = "44", color = "#2c3e50" }: Props) => {
   return (
     <svg
       xmlns="http://www.w3.org/2000/svg"
