@@ -1,4 +1,5 @@
-import { TwelveHoursIcon } from "./components/12-hours";
+import { OneTwoThreeIcon } from "./components/one-two-three";
+import { TwelveHoursIcon } from "./components/twelve-hours";
 
 export default () => {
   return (
@@ -9,6 +10,7 @@ export default () => {
       </head>
       <body>
         <TwelveHoursIcon />
+        <OneTwoThreeIcon />
       </body>
     </>
   );

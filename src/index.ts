@@ -1,1 +1,2 @@
-export { TwelveHoursIcon } from "./components/12-hours";
+export { TwelveHoursIcon } from "./components/twelve-hours";
+export { OneTwoThreeIcon } from "./components/one-two-three";
