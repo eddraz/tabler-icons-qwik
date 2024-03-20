@@ -13,6 +13,9 @@ import { ShoppingCartIcon } from "./components/shopping-cart";
 import { StethoscopeIcon } from "./components/stethoscope";
 import { TwelveHoursIcon } from "./components/twelve-hours";
 import { UserCircleIcon } from "./components/user-circle";
+import { ZoomScanIcon } from "./components/zoom-scan";
+import { ZzzIcon } from "./components/zzz";
+import { ZzzOffIcon } from "./components/zzz-off";
 
 export default () => {
   return (
@@ -37,6 +40,9 @@ export default () => {
         <ShoppingCartIcon />
         <StethoscopeIcon />
         <UserCircleIcon />
+        <ZoomScanIcon />
+        <ZzzIcon />
+        <ZzzOffIcon />
       </body>
     </>
   );

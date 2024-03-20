@@ -13,3 +13,6 @@ export { NewsIcon } from "./components/news";
 export { ShoppingCartIcon } from "./components/shopping-cart";
 export { StethoscopeIcon } from "./components/stethoscope";
 export { UserCircleIcon } from "./components/user-circle";
+export { ZoomScanIcon } from "./components/zoom-scan";
+export { ZzzIcon } from "./components/zzz";
+export { ZzzOffIcon } from "./components/zzz-off";
