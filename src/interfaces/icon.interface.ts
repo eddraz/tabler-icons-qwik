@@ -49,6 +49,7 @@ export type IconNameT =
   | "zoom-scan"
   | "zzz-off"
   | "zzz"
+  | "yoga"
   | string;
 
 export interface IconI {

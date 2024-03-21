@@ -14,6 +14,7 @@ import { NewsIcon } from "./icons/news";
 import { ShoppingCartIcon } from "./icons/shopping-cart";
 import { StethoscopeIcon } from "./icons/stethoscope";
 import { UserCircleIcon } from "./icons/user-circle";
+import { YogaIcon } from "./icons/yoga";
 import { ZeppelinIcon } from "./icons/zeppelin";
 import { ZeppelinOffIcon } from "./icons/zeppelin-off";
 import { ZipIcon } from "./icons/zip";
@@ -100,4 +101,5 @@ export const Icons: Record<IconNameT, Component> = {
   "zoom-scan": ZoomScanIcon,
   zzz: ZzzIcon,
   "zzz-off": ZzzOffIcon,
+  yoga: YogaIcon,
 };
