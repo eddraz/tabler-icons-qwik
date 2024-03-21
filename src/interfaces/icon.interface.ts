@@ -48,7 +48,8 @@ export type IconNameT =
   | "zoom-reset"
   | "zoom-scan"
   | "zzz-off"
-  | "zzz";
+  | "zzz"
+  | string;
 
 export interface IconI {
   name: IconNameT;
