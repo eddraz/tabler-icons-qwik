@@ -57,16 +57,20 @@ bun add qwik-lib-tabler-icons
 ### Typescript
 
 ```typescript
-import { BoneIcon } from "qwik-lib-tabler-icons";
+import { TablerIcon } from "qwik-lib-tabler-icons";
 
 export const App = () => {
   return (
-    <BoneIcon size="24" color="red" stroke="3" />
+    <TablerIcon name="components" size="24" color="red" stroke="3" />
   );
 }
 ```
 
 ### Options
+
+#### Name
+
+Define the name of the icon
 
 #### Size
 
