@@ -1,19 +1,19 @@
-import { component$ } from "@builder.io/qwik";
+import { IconPropsModel } from "../models/icon-props.model";
 
-interface Props {
-  color?: string;
-  size?: string | number;
-}
-export const DogIcon = component$<Props>(({ color, size }) => {
+export const DogIcon = ({
+  size = 44,
+  stroke = 1.5,
+  color = "#2c3e50",
+}: IconPropsModel) => {
   return (
     <svg
       xmlns="http://www.w3.org/2000/svg"
       class="icon icon-tabler icon-tabler-dog"
-      width={size || "44"}
-      height={size || "44"}
+      width={size}
+      height={size}
       viewBox="0 0 24 24"
-      stroke-width="1.5"
-      stroke={color || "#2c3e50"}
+      stroke-width={stroke}
+      stroke={color}
       fill="none"
       stroke-linecap="round"
       stroke-linejoin="round"
@@ -29,4 +29,4 @@ export const DogIcon = component$<Props>(({ color, size }) => {
       <path d="M19 4l-6 .97l6.238 6.688c.358 .408 .989 .458 1.41 .111a.953 .953 0 0 0 .327 -.954l-1.975 -6.815z" />
     </svg>
   );
-});
+};

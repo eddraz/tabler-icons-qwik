@@ -1,9 +1,10 @@
-interface Props {
-  size?: string;
-  color?: string;
-}
+import { IconPropsModel } from "../models/icon-props.model";
 
-export const OneTwoThreeIcon = ({ size = "44", color = "#000" }: Props) => {
+export const OneTwoThreeIcon = ({
+  size = 44,
+  stroke = 1.5,
+  color = "#2c3e50",
+}: IconPropsModel) => {
   return (
     <svg
       xmlns="http://www.w3.org/2000/svg"
@@ -11,7 +12,7 @@ export const OneTwoThreeIcon = ({ size = "44", color = "#000" }: Props) => {
       width={size}
       height={size}
       viewBox="0 0 24 24"
-      stroke-width="1.5"
+      stroke-width={stroke}
       stroke={color}
       fill="none"
       stroke-linecap="round"

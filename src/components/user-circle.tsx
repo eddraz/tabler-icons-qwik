@@ -1,17 +1,19 @@
-interface Props {
-  color?: string;
-  size?: string | number;
-}
-export const UserCircleIcon = ({ color, size }: Props) => {
+import { IconPropsModel } from "../models/icon-props.model";
+
+export const UserCircleIcon = ({
+  size = 44,
+  stroke = 1.5,
+  color = "#2c3e50",
+}: IconPropsModel) => {
   return (
     <svg
       xmlns="http://www.w3.org/2000/svg"
       class="icon icon-tabler icon-tabler-user-circle"
-      width={size || "44"}
-      height={size || "44"}
+      width={size}
+      height={size}
       viewBox="0 0 24 24"
-      stroke-width="1.5"
-      stroke={color || "#2c3e50"}
+      stroke-width={stroke}
+      stroke={color}
       fill="none"
       stroke-linecap="round"
       stroke-linejoin="round"

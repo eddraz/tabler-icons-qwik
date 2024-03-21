@@ -1,19 +1,19 @@
-import { component$ } from "@builder.io/qwik";
+import { IconPropsModel } from "../models/icon-props.model";
 
-interface Props {
-  color?: string;
-  size?: string | number;
-}
-export const ClipboardHeartIcon = component$<Props>(({ color, size }) => {
+export const ClipboardHeartIcon = ({
+  size = 44,
+  stroke = 1.5,
+  color = "#2c3e50",
+}: IconPropsModel) => {
   return (
     <svg
       xmlns="http://www.w3.org/2000/svg"
       class="icon icon-tabler icon-tabler-clipboard-heart"
-      width={size || "44"}
-      height={size || "44"}
+      width={size}
+      height={size}
       viewBox="0 0 24 24"
-      stroke-width="1.5"
-      stroke={color || "#2c3e50"}
+      stroke-width={stroke}
+      stroke={color}
       fill="none"
       stroke-linecap="round"
       stroke-linejoin="round"
@@ -24,4 +24,4 @@ export const ClipboardHeartIcon = component$<Props>(({ color, size }) => {
       <path d="M11.993 16.75l2.747 -2.815a1.9 1.9 0 0 0 0 -2.632a1.775 1.775 0 0 0 -2.56 0l-.183 .188l-.183 -.189a1.775 1.775 0 0 0 -2.56 0a1.899 1.899 0 0 0 0 2.632l2.738 2.825z" />
     </svg>
   );
-});
+};

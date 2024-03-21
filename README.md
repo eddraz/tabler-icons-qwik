@@ -45,3 +45,37 @@ The production build should generate the production build of your component libr
 ```
 bun build
 ```
+
+## Use
+
+To implement the library, you must import the library.
+
+```
+bun add qwik-lib-tabler-icons
+```
+
+### Typescript
+
+```typescript
+import { BoneIcon } from "qwik-lib-tabler-icons";
+
+export const App = () => {
+  return (
+    <BoneIcon size="24" color="red" stroke="3" />
+  );
+}
+```
+
+### Options
+
+#### Size
+
+Define the size of the icon
+
+#### Color
+
+Define the color of the icon
+
+#### Stroke
+
+Define the stroke width of the icon

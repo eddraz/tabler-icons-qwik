@@ -1,19 +1,19 @@
-import { component$ } from "@builder.io/qwik";
+import { IconPropsModel } from "../models/icon-props.model";
 
-interface Props {
-  color?: string;
-  size?: string | number;
-}
-export const BoneIcon = component$<Props>(({ color, size }) => {
+export const BoneIcon = ({
+  size = 44,
+  stroke = 1.5,
+  color = "#2c3e50",
+}: IconPropsModel) => {
   return (
     <svg
       xmlns="http://www.w3.org/2000/svg"
       class="icon icon-tabler icon-tabler-bone"
-      width={size || "44"}
-      height={size || "44"}
+      width={size}
+      height={size}
       viewBox="0 0 24 24"
-      stroke-width="1.5"
-      stroke={color || "#2c3e50"}
+      stroke-width={stroke}
+      stroke={color}
       fill="none"
       stroke-linecap="round"
       stroke-linejoin="round"
@@ -22,4 +22,4 @@ export const BoneIcon = component$<Props>(({ color, size }) => {
       <path d="M15 3a3 3 0 0 1 3 3a3 3 0 1 1 -2.12 5.122l-4.758 4.758a3 3 0 1 1 -5.117 2.297l0 -.177l-.176 0a3 3 0 1 1 2.298 -5.115l4.758 -4.758a3 3 0 0 1 2.12 -5.122z" />
     </svg>
   );
-});
+};
