@@ -31,3 +31,4 @@ export { AbacusIcon } from "./components/abacus";
 export { AbcIcon } from "./components/abc";
 export { AccessPointOffIcon } from "./components/access-point-off";
 export { AccessPointIcon } from "./components/access-point";
+export { AccessibleOffFilledIcon } from "./components/accessible-off-filled";

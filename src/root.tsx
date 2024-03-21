@@ -6,6 +6,7 @@ import { AbacusOffIcon } from "./components/abacus-off";
 import { AbcIcon } from "./components/abc";
 import { AccessPointIcon } from "./components/access-point";
 import { AccessPointOffIcon } from "./components/access-point-off";
+import { AccessibleOffFilledIcon } from "./components/accessible-off-filled";
 import { ActivityIcon } from "./components/activity";
 import { BoneIcon } from "./components/bone";
 import { CatIcon } from "./components/cat";
@@ -73,6 +74,7 @@ export default () => {
         <AbcIcon />
         <AccessPointOffIcon />
         <AccessPointIcon />
+        <AccessibleOffFilledIcon />
       </body>
     </>
   );
