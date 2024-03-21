@@ -1,23 +1,6 @@
-import { IconPropsModel } from "../models/icon-props.model";
-
-export const ThreeDCubesPhereOffIcon = ({
-  size = 44,
-  stroke = 1.5,
-  color = "#2c3e50",
-}: IconPropsModel) => {
+export const Icon3dCubeSphereOff = () => {
   return (
-    <svg
-      xmlns="http://www.w3.org/2000/svg"
-      class="icon icon-tabler icon-tabler-3d-cube-sphere-off"
-      width={size}
-      height={size}
-      viewBox="0 0 24 24"
-      stroke-width={stroke}
-      stroke={color}
-      fill="none"
-      stroke-linecap="round"
-      stroke-linejoin="round"
-    >
+    <>
       <path stroke="none" d="M0 0h24v24H0z" fill="none" />
       <path d="M6 17.6l-2 -1.1v-2.5" />
       <path d="M4 10v-2.5l2 -1.1" />
@@ -31,6 +14,6 @@ export const ThreeDCubesPhereOffIcon = ({
       <path d="M12 12l-2 -1.12" />
       <path d="M6 8.6l-2 -1.1" />
       <path d="M3 3l18 18" />
-    </svg>
+    </>
   );
 };

@@ -1,4 +1,4 @@
-export const NewsIcon = () => {
+export const IconNews = () => {
   return (
     <>
       <path stroke="none" d="M0 0h24v24H0z" fill="none" />

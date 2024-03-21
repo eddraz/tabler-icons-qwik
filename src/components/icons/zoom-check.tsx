@@ -1,4 +1,4 @@
-export const ZoomCheckIcon = () => {
+export const IconZoomCheck = () => {
   return (
     <>
       <path stroke="none" d="M0 0h24v24H0z" fill="none" />
