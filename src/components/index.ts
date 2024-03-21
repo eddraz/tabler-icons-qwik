@@ -43,7 +43,9 @@ import { IconZoomInFilled } from "./icons/zoom-in-filled";
 import { IconZoomMoney } from "./icons/zoom-money";
 import { IconZoomOut } from "./icons/zoom-out";
 import { IconZoomOutArea } from "./icons/zoom-out-area";
+import { IconZoomOutFilled } from "./icons/zoom-out-filled";
 import { IconZoomPan } from "./icons/zoom-pan";
+import { IconZoomQuestion } from "./icons/zoom-question";
 import { IconZoomReplace } from "./icons/zoom-replace";
 import { IconZoomReset } from "./icons/zoom-reset";
 import { IconZoomScan } from "./icons/zoom-scan";
@@ -95,9 +97,10 @@ export const Icons: Record<IconNameT, Component> = {
   "zoom-money": IconZoomMoney,
   "zoom-out": IconZoomOut,
   "zoom-out-area": IconZoomOutArea,
-  "zoom-out-filled": IconZoomInAreaFilled,
+  "zoom-out-filled": IconZoomOutFilled,
   "zoom-pan": IconZoomPan,
   "zoom-replace": IconZoomReplace,
+  "zoom-question": IconZoomQuestion,
   "zoom-reset": IconZoomReset,
   "zoom-scan": IconZoomScan,
   zzz: IconZzz,

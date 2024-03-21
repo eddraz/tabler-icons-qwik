@@ -54,6 +54,7 @@ export type IconNameT =
   | "zoom-out-filled"
   | "zoom-out"
   | "zoom-pan"
+  | "zoom-question"
   | "zoom-replace"
   | "zoom-reset"
   | "zoom-scan"
