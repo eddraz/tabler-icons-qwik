@@ -5,7 +5,9 @@ import { IconActivity } from "./icons/activity";
 import { IconBone } from "./icons/bone";
 import { IconCat } from "./icons/cat";
 import { IconChevronDown } from "./icons/chevron-down";
+import { IconChevronLeft } from "./icons/chevron-left";
 import { IconChevronRight } from "./icons/chevron-right";
+import { IconChevronUp } from "./icons/chevron-up";
 import { IconClipboardHeart } from "./icons/clipboard-heart";
 import { IconComponents } from "./icons/components";
 import { IconDog } from "./icons/dog";
@@ -60,7 +62,9 @@ export const Icons: Record<IconNameT, Component> = {
   bone: IconBone,
   cat: IconCat,
   "chevron-down": IconChevronDown,
+  "chevron-left": IconChevronLeft,
   "chevron-right": IconChevronRight,
+  "chevron-up": IconChevronUp,
   "clipboard-heart": IconClipboardHeart,
   components: IconComponents,
   "dog-bowl": IconDogBowl,
