@@ -94,7 +94,17 @@ import { IconViewfinderWide } from "./icons/viewfinder-wide";
 import { IconVinyl } from "./icons/vinyl";
 import { IconVip } from "./icons/vip";
 import { IconVipOff } from "./icons/vip-off";
+import { IconVirus } from "./icons/virus";
 import { IconVirusOff } from "./icons/virus-off";
+import { IconVirusSearch } from "./icons/virus-search";
+import { IconVocabulary } from "./icons/vocabulary";
+import { IconVocabularyOff } from "./icons/vocabulary-off";
+import { IconVolcano } from "./icons/volcano";
+import { IconVolume } from "./icons/volume";
+import { IconVolume2 } from "./icons/volume-2";
+import { IconVolume3 } from "./icons/volume-3";
+import { IconVolumeOff } from "./icons/volume-off";
+import { IconVs } from "./icons/vs";
 import { IconYoga } from "./icons/yoga";
 import { IconZeppelin } from "./icons/zeppelin";
 import { IconZeppelinOff } from "./icons/zeppelin-off";
@@ -231,6 +241,16 @@ export const Icons: Record<IconNameT, Component<{ color?: string }>> = {
   "vip-off": IconVipOff,
   vip: IconVip,
   "virus-off": IconVirusOff,
+  "virus-search": IconVirusSearch,
+  virus: IconVirus,
+  "vocabulary-off": IconVocabularyOff,
+  vocabulary: IconVocabulary,
+  volcano: IconVolcano,
+  "volume-2": IconVolume2,
+  "volume-3": IconVolume3,
+  "volume-off": IconVolumeOff,
+  volume: IconVolume,
+  vs: IconVs,
   zeppelin: IconZeppelin,
   "zeppelin-off": IconZeppelinOff,
   zip: IconZip,
