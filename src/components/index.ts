@@ -251,6 +251,7 @@ export const Icons: Record<IconNameT, Component<{ color?: string }>> = {
   "volume-off": IconVolumeOff,
   volume: IconVolume,
   vs: IconVs,
+  yoga: IconYoga,
   zeppelin: IconZeppelin,
   "zeppelin-off": IconZeppelinOff,
   zip: IconZip,
@@ -287,5 +288,4 @@ export const Icons: Record<IconNameT, Component<{ color?: string }>> = {
   "zoom-scan": IconZoomScan,
   zzz: IconZzz,
   "zzz-off": IconZzzOff,
-  yoga: IconYoga,
 };
