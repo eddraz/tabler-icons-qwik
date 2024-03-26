@@ -8,12 +8,7 @@ export default () => {
         <title>Qwik Blank App</title>
       </head>
       <body>
-        <TablerIcon
-          name="zoom-replace"
-          color="#c13030"
-          size={150}
-          stroke={1.5}
-        />
+        <TablerIcon name="components" color="#c13030" size={150} stroke={1.5} />
       </body>
     </>
   );
