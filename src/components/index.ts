@@ -105,6 +105,30 @@ import { IconVolume2 } from "./icons/volume-2";
 import { IconVolume3 } from "./icons/volume-3";
 import { IconVolumeOff } from "./icons/volume-off";
 import { IconVs } from "./icons/vs";
+import { IconWalk } from "./icons/walk";
+import { IconWall } from "./icons/wall";
+import { IconWallOff } from "./icons/wall-off";
+import { IconWallet } from "./icons/wallet";
+import { IconWalletOff } from "./icons/wallet-off";
+import { IconWallpaper } from "./icons/wallpaper";
+import { IconWallpaperOff } from "./icons/wallpaper-off";
+import { IconWand } from "./icons/wand";
+import { IconWandOff } from "./icons/wand-off";
+import { IconWashDry } from "./icons/wash-dry";
+import { IconWashDry1 } from "./icons/wash-dry-1";
+import { IconWashDry2 } from "./icons/wash-dry-2";
+import { IconWashDry3 } from "./icons/wash-dry-3";
+import { IconWashDryA } from "./icons/wash-dry-a";
+import { IconWashDryDip } from "./icons/wash-dry-dip";
+import { IconWashDryF } from "./icons/wash-dry-f";
+import { IconWashDryFlat } from "./icons/wash-dry-flat";
+import { IconWashDryHang } from "./icons/wash-dry-hang";
+import { IconWashDryOff } from "./icons/wash-dry-off";
+import { IconWashDryP } from "./icons/wash-dry-p";
+import { IconWashDryShade } from "./icons/wash-dry-shade";
+import { IconWashDryW } from "./icons/wash-dry-w";
+import { IconWashDryclean } from "./icons/wash-dryclean";
+import { IconWashDrycleanOff } from "./icons/wash-dryclean-off";
 import { IconYoga } from "./icons/yoga";
 import { IconZeppelin } from "./icons/zeppelin";
 import { IconZeppelinOff } from "./icons/zeppelin-off";
@@ -251,6 +275,30 @@ export const Icons: Record<IconNameT, Component<{ color?: string }>> = {
   "volume-off": IconVolumeOff,
   volume: IconVolume,
   vs: IconVs,
+  walk: IconWalk,
+  "wall-off": IconWallOff,
+  wall: IconWall,
+  "wallet-off": IconWalletOff,
+  wallet: IconWallet,
+  "wallpaper-off": IconWallpaperOff,
+  wallpaper: IconWallpaper,
+  "wand-off": IconWandOff,
+  wand: IconWand,
+  "wash-dry-1": IconWashDry1,
+  "wash-dry-2": IconWashDry2,
+  "wash-dry-3": IconWashDry3,
+  "wash-dry-a": IconWashDryA,
+  "wash-dry-dip": IconWashDryDip,
+  "wash-dry-f": IconWashDryF,
+  "wash-dry-flat": IconWashDryFlat,
+  "wash-dry-hang": IconWashDryHang,
+  "wash-dry-off": IconWashDryOff,
+  "wash-dry-p": IconWashDryP,
+  "wash-dry-shade": IconWashDryShade,
+  "wash-dry-w": IconWashDryW,
+  "wash-dry": IconWashDry,
+  "wash-dryclean-off": IconWashDrycleanOff,
+  "wash-dryclean": IconWashDryclean,
   yoga: IconYoga,
   zeppelin: IconZeppelin,
   "zeppelin-off": IconZeppelinOff,
