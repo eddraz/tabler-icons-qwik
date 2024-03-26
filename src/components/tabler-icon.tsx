@@ -21,7 +21,7 @@ export const TablerIcon = component$<IconI>(
           stroke-linecap="round"
           stroke-linejoin="round"
         >
-          <Component />
+          <Component color={color} />
         </svg>
       </>
     );

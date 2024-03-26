@@ -1,10 +1,15 @@
+
 export const IconVaccine = () => {
   return (
     <>
       <path stroke="none" d="M0 0h24v24H0z" fill="none" />
-      <path d="M12 12m-9 0a9 9 0 1 0 18 0a9 9 0 1 0 -18 0" />
-      <path d="M12 10m-3 0a3 3 0 1 0 6 0a3 3 0 1 0 -6 0" />
-      <path d="M6.168 18.849a4 4 0 0 1 3.832 -2.849h4a4 4 0 0 1 3.834 2.855" />
+      <path d="M17 3l4 4" />
+      <path d="M19 5l-4.5 4.5" />
+      <path d="M11.5 6.5l6 6" />
+      <path d="M16.5 11.5l-6.5 6.5h-4v-4l6.5 -6.5" />
+      <path d="M7.5 12.5l1.5 1.5" />
+      <path d="M10.5 9.5l1.5 1.5" />
+      <path d="M3 21l3 -3" />
     </>
   );
 };

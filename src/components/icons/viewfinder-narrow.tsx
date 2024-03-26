@@ -1,10 +1,12 @@
+
 export const IconViewfinderNarrow = () => {
   return (
     <>
       <path stroke="none" d="M0 0h24v24H0z" fill="none" />
-      <path d="M12 12m-9 0a9 9 0 1 0 18 0a9 9 0 1 0 -18 0" />
-      <path d="M12 10m-3 0a3 3 0 1 0 6 0a3 3 0 1 0 -6 0" />
-      <path d="M6.168 18.849a4 4 0 0 1 3.832 -2.849h4a4 4 0 0 1 3.834 2.855" />
+      <path d="M3 12h7l-3 -3m0 6l3 -3" />
+      <path d="M21 12h-7l3 -3m0 6l-3 -3" />
+      <path d="M9 6v-3h6v3" />
+      <path d="M9 18v3h6v-3" />
     </>
   );
 };

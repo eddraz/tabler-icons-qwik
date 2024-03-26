@@ -1,10 +1,13 @@
+
 export const IconUsersPlus = () => {
   return (
     <>
       <path stroke="none" d="M0 0h24v24H0z" fill="none" />
-      <path d="M12 12m-9 0a9 9 0 1 0 18 0a9 9 0 1 0 -18 0" />
-      <path d="M12 10m-3 0a3 3 0 1 0 6 0a3 3 0 1 0 -6 0" />
-      <path d="M6.168 18.849a4 4 0 0 1 3.832 -2.849h4a4 4 0 0 1 3.834 2.855" />
+      <path d="M5 7a4 4 0 1 0 8 0a4 4 0 0 0 -8 0" />
+      <path d="M3 21v-2a4 4 0 0 1 4 -4h4c.96 0 1.84 .338 2.53 .901" />
+      <path d="M16 3.13a4 4 0 0 1 0 7.75" />
+      <path d="M16 19h6" />
+      <path d="M19 16v6" />
     </>
   );
 };

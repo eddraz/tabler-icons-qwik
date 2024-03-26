@@ -15,7 +15,86 @@ import { IconDogBowl } from "./icons/dog-bowl";
 import { IconNews } from "./icons/news";
 import { IconShoppingCart } from "./icons/shopping-cart";
 import { IconStethoscope } from "./icons/stethoscope";
+import { IconUfo } from "./icons/ufo";
+import { IconUfoOff } from "./icons/ufo-off";
+import { IconUmbrella } from "./icons/umbrella";
+import { IconUmbrellaFilled } from "./icons/umbrella-filled";
+import { IconUmbrellaOff } from "./icons/umbrella-off";
+import { IconUniverse } from "./icons/universe";
+import { IconUnlink } from "./icons/unlink";
+import { IconUpload } from "./icons/upload";
+import { IconUrgent } from "./icons/urgent";
+import { IconUsb } from "./icons/usb";
+import { IconUser } from "./icons/user";
+import { IconUserBolt } from "./icons/user-bolt";
+import { IconUserCancel } from "./icons/user-cancel";
+import { IconUserCheck } from "./icons/user-check";
 import { IconUserCircle } from "./icons/user-circle";
+import { IconUserCode } from "./icons/user-code";
+import { IconUserCog } from "./icons/user-cog";
+import { IconUserDollar } from "./icons/user-dollar";
+import { IconUserDown } from "./icons/user-down";
+import { IconUserEdit } from "./icons/user-edit";
+import { IconUserExclamation } from "./icons/user-exclamation";
+import { IconUserFilled } from "./icons/user-filled";
+import { IconUserHeart } from "./icons/user-heart";
+import { IconUserHexagon } from "./icons/user-hexagon";
+import { IconUserMinus } from "./icons/user-minus";
+import { IconUserOff } from "./icons/user-off";
+import { IconUserPause } from "./icons/user-pause";
+import { IconUserPentagon } from "./icons/user-pentagon";
+import { IconUserPin } from "./icons/user-pin";
+import { IconUserPlus } from "./icons/user-plus";
+import { IconUserQuestion } from "./icons/user-question";
+import { IconUserScan } from "./icons/user-scan";
+import { IconUserSearch } from "./icons/user-search";
+import { IconUserShare } from "./icons/user-share";
+import { IconUserShield } from "./icons/user-shield";
+import { IconUserSquare } from "./icons/user-square";
+import { IconUserSquareRounded } from "./icons/user-square-rounded";
+import { IconUserStar } from "./icons/user-star";
+import { IconUserUp } from "./icons/user-up";
+import { IconUserX } from "./icons/user-x";
+import { IconUsers } from "./icons/users";
+import { IconUsersGroup } from "./icons/users-group";
+import { IconUsersMinus } from "./icons/users-minus";
+import { IconUsersPlus } from "./icons/users-plus";
+import { IconUvIndex } from "./icons/uv-index";
+import { IconUxCircle } from "./icons/ux-circle";
+import { IconVaccine } from "./icons/vaccine";
+import { IconVaccineBottle } from "./icons/vaccine-bottle";
+import { IconVaccineBottleOff } from "./icons/vaccine-bottle-off";
+import { IconVaccineOff } from "./icons/vaccine-off";
+import { IconVacuumCleaner } from "./icons/vacuum-cleaner";
+import { IconVariable } from "./icons/variable";
+import { IconVariableMinus } from "./icons/variable-minus";
+import { IconVariableOff } from "./icons/variable-off";
+import { IconVariablePlus } from "./icons/variable-plus";
+import { IconVector } from "./icons/vector";
+import { IconVectorBezier } from "./icons/vector-bezier";
+import { IconVectorBezierCircle } from "./icons/vector-bezier-circle";
+import { IconVectorOff } from "./icons/vector-off";
+import { IconVectorSpline } from "./icons/vector-spline";
+import { IconVectorTriangle } from "./icons/vector-triangle";
+import { IconVectorTriangleOff } from "./icons/vector-triangle-off";
+import { IconVenus } from "./icons/venus";
+import { IconVersions } from "./icons/versions";
+import { IconVersionsFilled } from "./icons/versions-filled";
+import { IconVersionsOff } from "./icons/versions-off";
+import { IconVideo } from "./icons/video";
+import { IconVideoMinus } from "./icons/video-minus";
+import { IconVideoOff } from "./icons/video-off";
+import { IconVideoPlus } from "./icons/video-plus";
+import { IconView360 } from "./icons/view-360";
+import { IconView360Off } from "./icons/view-360-off";
+import { IconViewfinder } from "./icons/viewfinder";
+import { IconViewfinderNarrow } from "./icons/viewfinder-narrow";
+import { IconViewfinderOff } from "./icons/viewfinder-off";
+import { IconViewfinderWide } from "./icons/viewfinderWide";
+import { IconVinyl } from "./icons/Vinyl";
+import { IconVip } from "./icons/vip";
+import { IconVipOff } from "./icons/vip-off";
+import { IconVirusOff } from "./icons/virus-off";
 import { IconYoga } from "./icons/yoga";
 import { IconZeppelin } from "./icons/zeppelin";
 import { IconZeppelinOff } from "./icons/zeppelin-off";
@@ -55,7 +134,7 @@ import { IconZzz } from "./icons/zzz";
 import { IconZzzOff } from "./icons/zzz-off";
 import { IconNameT } from "../interfaces/icon.interface";
 
-export const Icons: Record<IconNameT, Component> = {
+export const Icons: Record<IconNameT, Component<{ color?: string }>> = {
   "12-hours": Icon12Hours,
   123: Icon123,
   activity: IconActivity,
@@ -72,7 +151,86 @@ export const Icons: Record<IconNameT, Component> = {
   news: IconNews,
   "shopping-cart": IconShoppingCart,
   stethoscope: IconStethoscope,
+  "ufo-off": IconUfoOff,
+  ufo: IconUfo,
+  "umbrella-filled": IconUmbrellaFilled,
+  "umbrella-off": IconUmbrellaOff,
+  umbrella: IconUmbrella,
+  universe: IconUniverse,
+  unlink: IconUnlink,
+  upload: IconUpload,
+  urgent: IconUrgent,
+  usb: IconUsb,
+  "user-bolt": IconUserBolt,
+  "user-cancel": IconUserCancel,
+  "user-check": IconUserCheck,
   "user-circle": IconUserCircle,
+  "user-code": IconUserCode,
+  "user-cog": IconUserCog,
+  "user-dollar": IconUserDollar,
+  "user-down": IconUserDown,
+  "user-edit": IconUserEdit,
+  "user-exclamation": IconUserExclamation,
+  "user-filled": IconUserFilled,
+  "user-heart": IconUserHeart,
+  "user-hexagon": IconUserHexagon,
+  "user-minus": IconUserMinus,
+  "user-off": IconUserOff,
+  "user-pause": IconUserPause,
+  "user-pentagon": IconUserPentagon,
+  "user-pin": IconUserPin,
+  "user-plus": IconUserPlus,
+  "user-question": IconUserQuestion,
+  "user-scan": IconUserScan,
+  "user-search": IconUserSearch,
+  "user-share": IconUserShare,
+  "user-shield": IconUserShield,
+  "user-square-rounded": IconUserSquareRounded,
+  "user-square": IconUserSquare,
+  "user-star": IconUserStar,
+  "user-up": IconUserUp,
+  "user-x": IconUserX,
+  user: IconUser,
+  "users-group": IconUsersGroup,
+  "users-minus": IconUsersMinus,
+  "users-plus": IconUsersPlus,
+  users: IconUsers,
+  "uv-index": IconUvIndex,
+  "ux-circle": IconUxCircle,
+  "vaccine-bottle-off": IconVaccineBottleOff,
+  "vaccine-bottle": IconVaccineBottle,
+  "vaccine-off": IconVaccineOff,
+  vaccine: IconVaccine,
+  "vacuum-cleaner": IconVacuumCleaner,
+  "variable-minus": IconVariableMinus,
+  "variable-off": IconVariableOff,
+  "variable-plus": IconVariablePlus,
+  variable: IconVariable,
+  "vector-bezier-circle": IconVectorBezierCircle,
+  "vector-bezier": IconVectorBezier,
+  "vector-off": IconVectorOff,
+  "vector-spline": IconVectorSpline,
+  "vector-triangle-off": IconVectorTriangleOff,
+  "vector-triangle": IconVectorTriangle,
+  vector: IconVector,
+  venus: IconVenus,
+  "versions-filled": IconVersionsFilled,
+  "versions-off": IconVersionsOff,
+  versions: IconVersions,
+  "video-minus": IconVideoMinus,
+  "video-off": IconVideoOff,
+  "video-plus": IconVideoPlus,
+  video: IconVideo,
+  "view-360-off": IconView360Off,
+  "view-360": IconView360,
+  "viewfinder-off": IconViewfinderOff,
+  viewfinder: IconViewfinder,
+  "viewfinder-narrow": IconViewfinderNarrow,
+  "viewfinder-wide": IconViewfinderWide,
+  vinyl: IconVinyl,
+  "vip-off": IconVipOff,
+  vip: IconVip,
+  "virus-off": IconVirusOff,
   zeppelin: IconZeppelin,
   "zeppelin-off": IconZeppelinOff,
   zip: IconZip,
