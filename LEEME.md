@@ -47,7 +47,7 @@ bun build
 
 # Tabler Icons para Qwik
 
-Una colección de 5219 iconos SVG gratuitos y de alta calidad con licencia MIT para usar en tus proyectos web. Cada icono está diseñado en una cuadrícula de 24x24 con un trazo de 2px de Tabler Icons (https://tablericons.com/), construido bajo el framework Qwik.
+Una colección de 5219 iconos SVG gratuitos y de alta calidad con licencia MIT para usar en tus proyectos web. Cada icono está diseñado en una cuadrícula de 24x24 con un trazo de 2px de [Tabler Icons](https://tablericons.com/), construido bajo el framework Qwik.
 
 ## Instalación
 
