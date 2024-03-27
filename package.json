@@ -1,6 +1,6 @@
 {
   "name": "qwik-lib-tabler-icons",
-  "version": "0.0.9",
+  "version": "0.0.10",
   "description": "Qwik wrapper for Tabler Icons",
   "main": "./lib/index.qwik.mjs",
   "qwik": "./lib/index.qwik.mjs",
