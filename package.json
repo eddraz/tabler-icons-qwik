@@ -6,7 +6,7 @@
   "qwik": "./lib/index.qwik.mjs",
   "types": "./lib-types/index.d.ts",
   "repository": {
-    "url": "https://github.com/eddraz/tabler-icons-qwik"
+    "url": "git+https://github.com/eddraz/tabler-icons-qwik.git"
   },
   "publishConfig": {
     "registry": "https://npm.pkg.github.com"
