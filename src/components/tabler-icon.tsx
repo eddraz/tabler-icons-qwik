@@ -25,5 +25,5 @@ export const TablerIcon = component$<IconI>(
         </svg>
       </>
     );
-  }
+  },
 );
