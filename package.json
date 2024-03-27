@@ -8,9 +8,6 @@
   "repository": {
     "url": "git+https://github.com/eddraz/tabler-icons-qwik.git"
   },
-  "publishConfig": {
-    "registry": "https://npm.pkg.github.com"
-  },
   "exports": {
     ".": {
       "import": "./lib/index.qwik.mjs",
