@@ -1,4 +1,7 @@
-export const IconSquaresFilled = () => {
+interface Props {
+  color?: string;
+}
+export const IconSquaresFilled = ({ color }: Props) => {
   return (
     <>
       <path stroke="none" d="M0 0h24v24H0z" fill="none"></path>
