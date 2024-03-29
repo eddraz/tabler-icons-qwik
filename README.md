@@ -49,13 +49,13 @@ bun build
 
 A collection of 5219 high-quality, free SVG icons licensed under MIT for use in your web projects. Each icon is designed on a 24x24 grid with a 2px stroke from [Tabler Icons](https://tablericons.com/), built under the Qwik framework.
 
-## Instalación
+## Installation
 
 ```bash
     bun add qwik-lib-tabler-icons
 ```
 
-## Uso
+## Usage
 
 ```typescript
 import { TablerIcon } from "qwik-lib-tabler-icons";
